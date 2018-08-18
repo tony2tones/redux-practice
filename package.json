@@ -1,12 +1,11 @@
 {
-  "name": "redux-tutorial",
+  "name": "webpack-4-quickstart",
   "version": "1.0.0",
-  "description": "Following a redux tutorial, you can too",
+  "description": "> Webpack 4 tutorial: All You Need to Know, from 0 Conf to Production Mode",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -30,6 +29,8 @@
     "mini-css-extract-plugin": "^0.2.0",
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
     "webpack": "^4.16.5",
     "webpack-cli": "^2.0.12",
     "webpack-dev-server": "^3.1.5"
